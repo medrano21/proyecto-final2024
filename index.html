@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍾AL TOKE🍾 </title>
+    <!--conectamos el icono-->
+   <link rel="shortcut icon" href="icono1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+   
+   <center> <img src="logotipo2.png" width="400px" height="auto"></center>
+
+    <section class="form">
+    <!-- creamos una seccion para divir el formulario del resto. -->
+    <div class="login-container">
+        <!--creamos el formulario -->
+        <center> <img src="logo.jpg" width="300px" height="auto"></center>
+       
+        <h2>BIENVENIDO🍾</h2>
+    
+        <form id="loginForm"> 
+            <label for="username">Ingresar usuario:</label>
+            <input type="text" id="username" name="username" required><!--required es que debe completarse los campos-->           
+            <br>
+            <label for="password">Ingresar contraseña</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <!--creamos el boton ingresar y lo igualamos a la funcion del js-->
+           <button type="button" onclick="login()">Ingresar</button>
+        </form>
+    </div>
+    </section>
+</body>
+</html>
